@@ -1,6 +1,6 @@
 from flask import Flask
 import os
-from ClasedePrueba import *
+from modulo_de_prueba import *
 
 app = Flask(__name__)
 app.debug = True
