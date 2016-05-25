@@ -1,8 +1,5 @@
 import unittest
-
-class ClaseDePrueba:
-    def saluda(self):
-        return "hola SQRUM"
+from modulos.modulo_de_prueba import *
 
 class ClaseDePruebaTest(unittest.TestCase):
     
