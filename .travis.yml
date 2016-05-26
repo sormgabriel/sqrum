@@ -3,7 +3,7 @@ language: python
 python:
   - "2.7"
 # command to install dependencies
-script: nosetests pruebas/modulo_de_prueba.py
+script: nosetests pruebas/tests/*.py
 branches:
   only:
     - master
