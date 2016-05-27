@@ -10,11 +10,3 @@ class ClaseDePruebaTest(unittest.TestCase):
             self.res = self.obj.saluda()
         #assert
             self.assertEqual(self.res, "hola SQRUM")
-            
-    def test_saluda_falla(self):
-        #arrange
-            self.obj = ClaseDePrueba()
-        #act
-            self.res = self.obj.saluda()
-        #assert
-            self.assertEquals(self.res, "")
