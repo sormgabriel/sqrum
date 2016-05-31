@@ -4,7 +4,6 @@ from modulos.modulo_de_prueba import *
 
 app = Flask(__name__)
 app.debug = True
-
 @app.route('/')
 def index():
     obj = ClaseDePrueba()
