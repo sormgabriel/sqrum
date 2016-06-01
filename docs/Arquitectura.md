@@ -26,7 +26,7 @@ las siguientes tecnologías:
 * Bootstrap 3 [http://getbootstrap.com/](http://getbootstrap.com/)
 
 ###Ambiente de desarrollo
-* Cloud9 - [https://c9.io/](https://c9.io/) (Servicio de Workspace+IDE online con funciones de desarrollo colaborativo)
+* Cloud9 (Servicio de Workspace+IDE online con funciones de desarrollo colaborativo) - [https://c9.io/](https://c9.io/)
 * Github (Repositorio) - [https://github.com/juanpablocamejo/sqrum/](https://github.com/juanpablocamejo/sqrum/)
 * Travis (Servidor de integración continua) - [https://travis-ci.org/juanpablocamejo/sqrum/](https://travis-ci.org/juanpablocamejo/sqrum/)
 * Heroku (Travis realizará el deploy automático a esta app de heroku) - [https://sqrum.herokuapp.com/](https://sqrum.herokuapp.com/)
