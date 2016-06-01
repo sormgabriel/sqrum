@@ -6,7 +6,7 @@ La aplicación servirá una API REST,
 que consumirá el frontend a través de peticiones AJAX.
 Entre las tecnologías seleccionadas para el desarrollo de la API,
 se encuentran:
-* Python 2.7 - [https://www.python.org/](https://www.python.org/))
+* Python 2.7 - [https://www.python.org/](https://www.python.org/)
 * Nose - [https://nose.readthedocs.io/en/latest/](https://nose.readthedocs.io/en/latest/)
 * Behave - [http://pythonhosted.org/behave/](http://pythonhosted.org/behave/)
 * Flask - [http://flask.pocoo.org/](http://flask.pocoo.org/)
