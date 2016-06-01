@@ -11,8 +11,8 @@
   -4.1.            Objetivos                                                                        
   -4.2.            Alcance                                                                          
   -4.3.            Stakeholders y Usuarios                                                          
-    -4.3.1.             Perfiles de los Stakeholders                                                 
-    -4.3.2.             Perfiles de los Usuarios                                                      
+   -4.3.1.             Perfiles de los Stakeholders                                                 
+   -4.3.2.             Perfiles de los Usuarios                                                      
   -4.4.            Supuestos y Dependencias                                                       
   -4.5.            Restricciones de fechas                                                           
   -4.6.            Otras restricciones                                                               
@@ -87,10 +87,15 @@ Si bien la herramienta proporciona todos los artefactos de Scrum de manera tal q
 
 ###CRONOGRAMA
 
-| Semana | Activiades | Entregables |
-| -- | -- | -- |
-| 1  31/05/2016 | Análisis:  Configuración del sistema a desarrollar |  |
-| 2  08/06/2016 | Análisis:  Importación  Stock  Facturación  Marketing  Recepción    Documentación (versión inicial):  DFD  Requisitos |  |
+**Semana: 1 (01/06/2016)**
+* Actividades: Análisis: Configuración del sistema a desarrollar.
+* Entregables:
+
+**Semana: 2 (08/06/2016)**
+* Actividades:
+  - Análisis: Importación; Stock; Facturación; Marketing; Recepción.
+  - Documentación (versión inicial): DFD; Requisitos.
+* Entregables:
 
 ###RIESGOS
 
