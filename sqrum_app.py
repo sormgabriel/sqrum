@@ -1,26 +1,26 @@
 from flask import request, Flask, jsonify, abort
 
 app = Flask(__name__)
-tasks = []
+userstories = []
 def current_position():
-  if len(tasks)==0:
+  if len(userstories)==0:
     return_value=0
   else:
-    return_value= len(tasks)-1
+    return_value= len(userstories)-1
   return return_value
-@app.route('/todo/api/v1.0/tasks', methods=['POST'])
+@app.route('/todo/api/v1.0/userstories', methods=['POST'])
 
 def create_task():
-  if not request.json or not 'title' in request.json:
+  if not request.json or not 'rol' in request.json:
     abort(4000)
-  task = {
+  user_story = {
     'id': current_position(),
-    'rol': request.json.get('title',""),
+    'rol': request.json.get('rol',""),
     'description': request.json.get('description',""),
     'done':False
   }
-  tasks.append(task)
-  return jsonify({'task':task}), 201
+  userstories.append(user_story)
+  return jsonify({'user_story':user_story}), 201
 
 if __name__ == '__main__':
   app.run(debug=True)
