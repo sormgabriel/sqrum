@@ -15,7 +15,7 @@ def create_task():
   if not request.json or not 'rol' in request.json:
     abort(4000)
   user_story = {
-    'id': 2,
+    'id': request.json.get('id',""),
     'rol': request.json.get('rol',""),
     'description': request.json.get('description',""),
   }
